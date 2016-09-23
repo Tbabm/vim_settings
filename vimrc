@@ -28,6 +28,10 @@ set foldmethod=syntax
 "set mouse=a
 "}}
 
+" set encoding
+set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
+set encoding=utf-8
+
 "key_map conf {{
 " use ctrl+t to start NERDTree
 map <C-t> :NERDTreeToggle<CR>
